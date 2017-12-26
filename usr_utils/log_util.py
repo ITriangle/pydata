@@ -9,13 +9,12 @@ import sys
 import os
 import logging
 
-from config import LOG_DIR_PATH
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
 
-rootLogger = logging.getLogger("sync_mongo_by_stream")
+rootLogger = logging.getLogger("python data math")
 rootLogger.setLevel(logging.INFO)
 rootLogger.setLevel(logging.DEBUG)
 
