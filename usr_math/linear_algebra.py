@@ -11,14 +11,18 @@ if __name__ == '__main__':
     print(m.T)
 
     # 2. 矩阵的乘法 Matrix Multiplication
-    print("Matrix Multiplication")
+
     a = numpy.mat([1, 2])
     b = numpy.mat([[10], [20]])
+    print("Matrix Multiplication")
     print(a * b)
+    print("Matrix Multiplication")
     print(a.T * b.T)
+
 
     a = numpy.mat([[1, 2], [3, 4]])
     b = numpy.mat([[10, 20], [30, 40]])
+    print("Matrix Multiplication")
     print(a * b)
 
     # 3. 矩阵的内积 Matrix inner ： 矢量的降维运算，变成一个数
